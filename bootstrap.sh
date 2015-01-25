@@ -10,6 +10,7 @@ echo "Setup programs"
 apt-get install \
 	claws-mail \
 	clementine \
+	curl \
 	git \
 	htop \
 	ffmpeg \
@@ -35,4 +36,4 @@ cp "$root_dotfiles"/fonts/Monaco-Powerline.otf /usr/share/fonts/
 fc-cache -vf
 
 echo "Copy slim configuration"
-ln -s "$root_dotfiles"/slim.conf /etc/slim.conf
+cp "$root_dotfiles"/slim.conf /etc/slim.conf
