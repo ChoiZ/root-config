@@ -27,8 +27,8 @@ apt-get install \
 	zsh
 
 echo "Clone dotroot files"
-root_dotfiles="/root/.dotroot" 
-git clone https://github.com/ChoiZ/dotroot.git $root_dotfiles
+root_dotfiles="/root/.dotfiles" 
+git clone https://github.com/ChoiZ/root-config.git $root_dotfiles
 
 echo "Copy fonts"
 cp "$root_dotfiles"/fonts/Monaco-Powerline.otf /usr/share/fonts/
