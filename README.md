@@ -12,11 +12,8 @@ Clone git repository:
 
 	git clone https://www.github.com/ChoiZ/root-config.git /root/.dotfiles
 
-Copy fonts:
+Copy fonts / configuration files:
 
 	cp /root/.dotfiles/fonts/Monaco-Powerline.otf /usr/share/fonts/
 	fc-cache -vf
-
-Create symlink:
-
-	ln -s /root/.dotfiles/slim.conf /etc/slim.conf
+	cp /root/.dotfiles/slim.conf /etc/slim.conf
