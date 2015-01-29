@@ -10,11 +10,14 @@ echo "Setup programs"
 apt-get install \
 	claws-mail \
 	clementine \
+	ctags \
 	curl \
 	git \
 	htop \
 	ffmpeg \
+	mysql-server-5.5 \
 	openssh-server \
+	php5-cli php5-dev php5-imagick php5-memcache php5-mysql php5-pgsql \
 	simple-scan \
 	slim \
 	scrot \
